@@ -1,9 +1,10 @@
 import {Text, View} from 'react-native';
-const PoliashKing = ()=>{
+const PoliashKing = ({name})=>{
 
-    return(<Veiw>
-        <Text>Its comming</Text>
-    </Veiw>
+    return(
+    <View>
+        <Text>is comming {name}</Text>
+    </View>
     )
 }
 
